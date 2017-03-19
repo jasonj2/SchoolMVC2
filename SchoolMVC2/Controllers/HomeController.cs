@@ -37,6 +37,7 @@ namespace SchoolMVC2.Controllers
             {
                 List<Person> studentList = db.People.ToList();
 
+
                 return View();
             }
         }
